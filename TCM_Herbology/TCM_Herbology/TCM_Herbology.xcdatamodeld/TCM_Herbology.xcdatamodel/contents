@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HerbEntity" representedClassName="HerbEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="actionsIndications" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="channels" optional="YES" attributeType="String"/>
+        <attribute name="commonCombinations" optional="YES" attributeType="String"/>
+        <attribute name="commonName" optional="YES" attributeType="String"/>
+        <attribute name="contraindicationsCautions" optional="YES" attributeType="String"/>
+        <attribute name="dosage" optional="YES" attributeType="String"/>
+        <attribute name="efficacy" optional="YES" attributeType="String"/>
+        <attribute name="fuFan" optional="YES" attributeType="String"/>
+        <attribute name="group" optional="YES" attributeType="String"/>
+        <attribute name="hid" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="latinName" optional="YES" attributeType="String"/>
+        <attribute name="literalEnglish" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="others" optional="YES" attributeType="String"/>
+        <attribute name="pinyinName" optional="YES" attributeType="String"/>
+        <attribute name="properties" optional="YES" attributeType="String"/>
+        <attribute name="subgroup1" optional="YES" attributeType="String"/>
+        <attribute name="subgroup2" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+</model>

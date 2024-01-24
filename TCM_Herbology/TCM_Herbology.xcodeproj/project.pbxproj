@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F037FD542B60B34200409645 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD532B60B34200409645 /* CustomTableViewCell.swift */; };
+		F037FD562B60C49D00409645 /* MyExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD552B60C49D00409645 /* MyExpandableTableViewCell.swift */; };
+		F037FD5A2B61913100409645 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD592B61913100409645 /* CustomCollectionViewCell.swift */; };
+		F037FD5B2B61913100409645 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD592B61913100409645 /* CustomCollectionViewCell.swift */; };
+		F037FD5C2B61913100409645 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD592B61913100409645 /* CustomCollectionViewCell.swift */; };
+		F037FD5E2B61A41800409645 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */; };
+		F037FD5F2B61A41800409645 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */; };
+		F037FD602B61A41800409645 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */; };
+		F09A173F2B5EBB9500DA14A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A173E2B5EBB9500DA14A8 /* AppDelegate.swift */; };
+		F09A17412B5EBB9500DA14A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17402B5EBB9500DA14A8 /* SceneDelegate.swift */; };
+		F09A17432B5EBB9500DA14A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17422B5EBB9500DA14A8 /* ViewController.swift */; };
+		F09A17462B5EBB9500DA14A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09A17442B5EBB9500DA14A8 /* Main.storyboard */; };
+		F09A17492B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F09A17472B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodeld */; };
+		F09A174B2B5EBB9600DA14A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09A174A2B5EBB9600DA14A8 /* Assets.xcassets */; };
+		F09A174E2B5EBB9600DA14A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09A174C2B5EBB9600DA14A8 /* LaunchScreen.storyboard */; };
+		F09A17592B5EBB9700DA14A8 /* TCM_HerbologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17582B5EBB9700DA14A8 /* TCM_HerbologyTests.swift */; };
+		F09A17632B5EBB9700DA14A8 /* TCM_HerbologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17622B5EBB9700DA14A8 /* TCM_HerbologyUITests.swift */; };
+		F09A17652B5EBB9700DA14A8 /* TCM_HerbologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17642B5EBB9700DA14A8 /* TCM_HerbologyUITestsLaunchTests.swift */; };
+		F09A17752B5F0BDA00DA14A8 /* HerbVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17742B5F0BDA00DA14A8 /* HerbVO.swift */; };
+		F09A17762B5F0BDA00DA14A8 /* HerbVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17742B5F0BDA00DA14A8 /* HerbVO.swift */; };
+		F09A17792B5F5C7F00DA14A8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17782B5F5C7F00DA14A8 /* ListViewController.swift */; };
+		F09A177A2B5F5C7F00DA14A8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17782B5F5C7F00DA14A8 /* ListViewController.swift */; };
+		F09A177C2B6018BC00DA14A8 /* CoreDataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A177B2B6018BC00DA14A8 /* CoreDataTransform.swift */; };
+		F09A177D2B6018BC00DA14A8 /* CoreDataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A177B2B6018BC00DA14A8 /* CoreDataTransform.swift */; };
+		F09A177F2B6036DE00DA14A8 /* HerbDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A177E2B6036DE00DA14A8 /* HerbDetailsViewController.swift */; };
+		F09A17802B6036DE00DA14A8 /* HerbDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A177E2B6036DE00DA14A8 /* HerbDetailsViewController.swift */; };
+		F09A17B72B6092FD00DA14A8 /* HelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17B62B6092FD00DA14A8 /* HelperDelegate.swift */; };
+		F09A17B82B6092FD00DA14A8 /* HelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17B62B6092FD00DA14A8 /* HelperDelegate.swift */; };
+		F09A17B92B6092FD00DA14A8 /* HelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17B62B6092FD00DA14A8 /* HelperDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09A17552B5EBB9700DA14A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09A17332B5EBB9500DA14A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09A173A2B5EBB9500DA14A8;
+			remoteInfo = TCM_Herbology;
+		};
+		F09A175F2B5EBB9700DA14A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09A17332B5EBB9500DA14A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09A173A2B5EBB9500DA14A8;
+			remoteInfo = TCM_Herbology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F037FD532B60B34200409645 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F037FD552B60C49D00409645 /* MyExpandableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		F037FD582B60CA3700409645 /* HelperDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperDelegate.swift; sourceTree = "<group>"; };
+		F037FD592B61913100409645 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerTableViewCell.swift; sourceTree = "<group>"; };
+		F09A173B2B5EBB9500DA14A8 /* TCM_Herbology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCM_Herbology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09A173E2B5EBB9500DA14A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F09A17402B5EBB9500DA14A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F09A17422B5EBB9500DA14A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F09A17452B5EBB9500DA14A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09A17482B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCM_Herbology.xcdatamodel; sourceTree = "<group>"; };
+		F09A174A2B5EBB9600DA14A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09A174D2B5EBB9600DA14A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09A174F2B5EBB9600DA14A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09A17542B5EBB9700DA14A8 /* TCM_HerbologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCM_HerbologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09A17582B5EBB9700DA14A8 /* TCM_HerbologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCM_HerbologyTests.swift; sourceTree = "<group>"; };
+		F09A175E2B5EBB9700DA14A8 /* TCM_HerbologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCM_HerbologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09A17622B5EBB9700DA14A8 /* TCM_HerbologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCM_HerbologyUITests.swift; sourceTree = "<group>"; };
+		F09A17642B5EBB9700DA14A8 /* TCM_HerbologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCM_HerbologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F09A17742B5F0BDA00DA14A8 /* HerbVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbVO.swift; sourceTree = "<group>"; };
+		F09A17782B5F5C7F00DA14A8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F09A177B2B6018BC00DA14A8 /* CoreDataTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTransform.swift; sourceTree = "<group>"; };
+		F09A177E2B6036DE00DA14A8 /* HerbDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbDetailsViewController.swift; sourceTree = "<group>"; };
+		F09A17B62B6092FD00DA14A8 /* HelperDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelperDelegate.swift; path = "../../../../../../../../../../Downloads/NestedTableview-main/NestedTableview/Protocol/HelperDelegate.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09A17382B5EBB9500DA14A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09A17512B5EBB9700DA14A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09A175B2B5EBB9700DA14A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F037FD572B60CA3100409645 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD582B60CA3700409645 /* HelperDelegate.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F09A17322B5EBB9500DA14A8 = {
+			isa = PBXGroup;
+			children = (
+				F09A173D2B5EBB9500DA14A8 /* TCM_Herbology */,
+				F09A17572B5EBB9700DA14A8 /* TCM_HerbologyTests */,
+				F09A17612B5EBB9700DA14A8 /* TCM_HerbologyUITests */,
+				F09A173C2B5EBB9500DA14A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09A173C2B5EBB9500DA14A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09A173B2B5EBB9500DA14A8 /* TCM_Herbology.app */,
+				F09A17542B5EBB9700DA14A8 /* TCM_HerbologyTests.xctest */,
+				F09A175E2B5EBB9700DA14A8 /* TCM_HerbologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09A173D2B5EBB9500DA14A8 /* TCM_Herbology */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD572B60CA3100409645 /* Misc */,
+				F09A17812B60498B00DA14A8 /* Cell */,
+				F09A17772B5F5C6100DA14A8 /* Controller */,
+				F09A17712B5EEB3300DA14A8 /* Model */,
+				F09A173E2B5EBB9500DA14A8 /* AppDelegate.swift */,
+				F09A17402B5EBB9500DA14A8 /* SceneDelegate.swift */,
+				F09A17442B5EBB9500DA14A8 /* Main.storyboard */,
+				F09A174A2B5EBB9600DA14A8 /* Assets.xcassets */,
+				F09A174C2B5EBB9600DA14A8 /* LaunchScreen.storyboard */,
+				F09A174F2B5EBB9600DA14A8 /* Info.plist */,
+				F09A17472B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodeld */,
+			);
+			path = TCM_Herbology;
+			sourceTree = "<group>";
+		};
+		F09A17572B5EBB9700DA14A8 /* TCM_HerbologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F09A17582B5EBB9700DA14A8 /* TCM_HerbologyTests.swift */,
+			);
+			path = TCM_HerbologyTests;
+			sourceTree = "<group>";
+		};
+		F09A17612B5EBB9700DA14A8 /* TCM_HerbologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F09A17622B5EBB9700DA14A8 /* TCM_HerbologyUITests.swift */,
+				F09A17642B5EBB9700DA14A8 /* TCM_HerbologyUITestsLaunchTests.swift */,
+			);
+			path = TCM_HerbologyUITests;
+			sourceTree = "<group>";
+		};
+		F09A17712B5EEB3300DA14A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F09A17742B5F0BDA00DA14A8 /* HerbVO.swift */,
+				F09A177B2B6018BC00DA14A8 /* CoreDataTransform.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F09A17772B5F5C6100DA14A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F09A17422B5EBB9500DA14A8 /* ViewController.swift */,
+				F09A17782B5F5C7F00DA14A8 /* ListViewController.swift */,
+				F09A177E2B6036DE00DA14A8 /* HerbDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F09A17812B60498B00DA14A8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD532B60B34200409645 /* CustomTableViewCell.swift */,
+				F09A17B62B6092FD00DA14A8 /* HelperDelegate.swift */,
+				F037FD552B60C49D00409645 /* MyExpandableTableViewCell.swift */,
+				F037FD592B61913100409645 /* CustomCollectionViewCell.swift */,
+				F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09A173A2B5EBB9500DA14A8 /* TCM_Herbology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09A17682B5EBB9700DA14A8 /* Build configuration list for PBXNativeTarget "TCM_Herbology" */;
+			buildPhases = (
+				F09A17372B5EBB9500DA14A8 /* Sources */,
+				F09A17382B5EBB9500DA14A8 /* Frameworks */,
+				F09A17392B5EBB9500DA14A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCM_Herbology;
+			productName = TCM_Herbology;
+			productReference = F09A173B2B5EBB9500DA14A8 /* TCM_Herbology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09A17532B5EBB9700DA14A8 /* TCM_HerbologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09A176B2B5EBB9700DA14A8 /* Build configuration list for PBXNativeTarget "TCM_HerbologyTests" */;
+			buildPhases = (
+				F09A17502B5EBB9700DA14A8 /* Sources */,
+				F09A17512B5EBB9700DA14A8 /* Frameworks */,
+				F09A17522B5EBB9700DA14A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09A17562B5EBB9700DA14A8 /* PBXTargetDependency */,
+			);
+			name = TCM_HerbologyTests;
+			productName = TCM_HerbologyTests;
+			productReference = F09A17542B5EBB9700DA14A8 /* TCM_HerbologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09A175D2B5EBB9700DA14A8 /* TCM_HerbologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09A176E2B5EBB9700DA14A8 /* Build configuration list for PBXNativeTarget "TCM_HerbologyUITests" */;
+			buildPhases = (
+				F09A175A2B5EBB9700DA14A8 /* Sources */,
+				F09A175B2B5EBB9700DA14A8 /* Frameworks */,
+				F09A175C2B5EBB9700DA14A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09A17602B5EBB9700DA14A8 /* PBXTargetDependency */,
+			);
+			name = TCM_HerbologyUITests;
+			productName = TCM_HerbologyUITests;
+			productReference = F09A175E2B5EBB9700DA14A8 /* TCM_HerbologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09A17332B5EBB9500DA14A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F09A173A2B5EBB9500DA14A8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F09A17532B5EBB9700DA14A8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F09A173A2B5EBB9500DA14A8;
+					};
+					F09A175D2B5EBB9700DA14A8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F09A173A2B5EBB9500DA14A8;
+					};
+				};
+			};
+			buildConfigurationList = F09A17362B5EBB9500DA14A8 /* Build configuration list for PBXProject "TCM_Herbology" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09A17322B5EBB9500DA14A8;
+			productRefGroup = F09A173C2B5EBB9500DA14A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09A173A2B5EBB9500DA14A8 /* TCM_Herbology */,
+				F09A17532B5EBB9700DA14A8 /* TCM_HerbologyTests */,
+				F09A175D2B5EBB9700DA14A8 /* TCM_HerbologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09A17392B5EBB9500DA14A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09A174E2B5EBB9600DA14A8 /* LaunchScreen.storyboard in Resources */,
+				F09A174B2B5EBB9600DA14A8 /* Assets.xcassets in Resources */,
+				F09A17462B5EBB9500DA14A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09A17522B5EBB9700DA14A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09A175C2B5EBB9700DA14A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09A17372B5EBB9500DA14A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09A17B72B6092FD00DA14A8 /* HelperDelegate.swift in Sources */,
+				F09A177F2B6036DE00DA14A8 /* HerbDetailsViewController.swift in Sources */,
+				F037FD542B60B34200409645 /* CustomTableViewCell.swift in Sources */,
+				F09A17492B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodeld in Sources */,
+				F037FD5E2B61A41800409645 /* InnerTableViewCell.swift in Sources */,
+				F09A17432B5EBB9500DA14A8 /* ViewController.swift in Sources */,
+				F09A17792B5F5C7F00DA14A8 /* ListViewController.swift in Sources */,
+				F037FD562B60C49D00409645 /* MyExpandableTableViewCell.swift in Sources */,
+				F037FD5A2B61913100409645 /* CustomCollectionViewCell.swift in Sources */,
+				F09A173F2B5EBB9500DA14A8 /* AppDelegate.swift in Sources */,
+				F09A17412B5EBB9500DA14A8 /* SceneDelegate.swift in Sources */,
+				F09A17752B5F0BDA00DA14A8 /* HerbVO.swift in Sources */,
+				F09A177C2B6018BC00DA14A8 /* CoreDataTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09A17502B5EBB9700DA14A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09A17592B5EBB9700DA14A8 /* TCM_HerbologyTests.swift in Sources */,
+				F037FD5B2B61913100409645 /* CustomCollectionViewCell.swift in Sources */,
+				F037FD5F2B61A41800409645 /* InnerTableViewCell.swift in Sources */,
+				F09A177D2B6018BC00DA14A8 /* CoreDataTransform.swift in Sources */,
+				F09A17802B6036DE00DA14A8 /* HerbDetailsViewController.swift in Sources */,
+				F09A17762B5F0BDA00DA14A8 /* HerbVO.swift in Sources */,
+				F09A17B82B6092FD00DA14A8 /* HelperDelegate.swift in Sources */,
+				F09A177A2B5F5C7F00DA14A8 /* ListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09A175A2B5EBB9700DA14A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09A17632B5EBB9700DA14A8 /* TCM_HerbologyUITests.swift in Sources */,
+				F09A17652B5EBB9700DA14A8 /* TCM_HerbologyUITestsLaunchTests.swift in Sources */,
+				F09A17B92B6092FD00DA14A8 /* HelperDelegate.swift in Sources */,
+				F037FD5C2B61913100409645 /* CustomCollectionViewCell.swift in Sources */,
+				F037FD602B61A41800409645 /* InnerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09A17562B5EBB9700DA14A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09A173A2B5EBB9500DA14A8 /* TCM_Herbology */;
+			targetProxy = F09A17552B5EBB9700DA14A8 /* PBXContainerItemProxy */;
+		};
+		F09A17602B5EBB9700DA14A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09A173A2B5EBB9500DA14A8 /* TCM_Herbology */;
+			targetProxy = F09A175F2B5EBB9700DA14A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09A17442B5EBB9500DA14A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09A17452B5EBB9500DA14A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09A174C2B5EBB9600DA14A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09A174D2B5EBB9600DA14A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09A17662B5EBB9700DA14A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F09A17672B5EBB9700DA14A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09A17692B5EBB9700DA14A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM77TWQU4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCM_Herbology/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09A176A2B5EBB9700DA14A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM77TWQU4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCM_Herbology/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F09A176C2B5EBB9700DA14A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-HerbologyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCM_Herbology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCM_Herbology";
+			};
+			name = Debug;
+		};
+		F09A176D2B5EBB9700DA14A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-HerbologyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCM_Herbology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCM_Herbology";
+			};
+			name = Release;
+		};
+		F09A176F2B5EBB9700DA14A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-HerbologyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCM_Herbology;
+			};
+			name = Debug;
+		};
+		F09A17702B5EBB9700DA14A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-HerbologyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCM_Herbology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09A17362B5EBB9500DA14A8 /* Build configuration list for PBXProject "TCM_Herbology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09A17662B5EBB9700DA14A8 /* Debug */,
+				F09A17672B5EBB9700DA14A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09A17682B5EBB9700DA14A8 /* Build configuration list for PBXNativeTarget "TCM_Herbology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09A17692B5EBB9700DA14A8 /* Debug */,
+				F09A176A2B5EBB9700DA14A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09A176B2B5EBB9700DA14A8 /* Build configuration list for PBXNativeTarget "TCM_HerbologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09A176C2B5EBB9700DA14A8 /* Debug */,
+				F09A176D2B5EBB9700DA14A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09A176E2B5EBB9700DA14A8 /* Build configuration list for PBXNativeTarget "TCM_HerbologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09A176F2B5EBB9700DA14A8 /* Debug */,
+				F09A17702B5EBB9700DA14A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F09A17472B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F09A17482B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodel */,
+			);
+			currentVersion = F09A17482B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodel */;
+			path = TCM_Herbology.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F09A17332B5EBB9500DA14A8 /* Project object */;
+}
