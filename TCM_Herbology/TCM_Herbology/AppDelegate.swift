@@ -12,8 +12,9 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     static var HerbList: [HerbVO] = []
+    static var FufanList: [FufanVO] = []
     let GET_LINK = "https://taikuchou.github.io/tcmdafan.json"
-
+    let GET_LINK_FUFAN = "https://taikuchou.github.io/tcmfufan.json"
     func checkInit() -> Bool{
         let managedContext = persistentContainer.viewContext
 
@@ -21,7 +22,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         do {
             let herbs: [NSManagedObject] = try managedContext.fetch(fetchRequest)
-//            print(herbs.count)
+            return herbs.count != 0
+        } catch let error as NSError {
+            print("Could not fetch. \(error), \(error.userInfo)")
+        }
+
+        return true
+    }
+    func checkFufanInit() -> Bool{
+        let managedContext = persistentContainer.viewContext
+
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "FufanEntity")
+
+        do {
+            let herbs: [NSManagedObject] = try managedContext.fetch(fetchRequest)
             return herbs.count != 0
         } catch let error as NSError {
             print("Could not fetch. \(error), \(error.userInfo)")
@@ -32,6 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func getData_GET(){
         let isAdd = checkInit()
         if isAdd {
+            getFufanData_GET()
             return
         }
         if let url = URL(string: GET_LINK){
@@ -42,18 +57,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     return
                 }
                 if let data, let string = String(data: data, encoding: .utf8){
-                    print(string.count)
-//                    DispatchQueue.main.async {
-//                        self.display.text = "\(string.count)"
-//                    }
-//                    if let jsonArray  = try? JSONSerialization.jsonObject(with:data,options:JSONSerialization.ReadingOptions.mutableContainers), let list = jsonArray as? [[String:String]]{
-//                        print(list.count)
-//
-//                    }
                     if let array = try? JSONDecoder().decode([HerbVO].self, from: data){
-                        //print(array.count)
                         AppDelegate.HerbList = array
-                        print(AppDelegate.HerbList.count)
+//                        print(AppDelegate.HerbList.count)
                         DispatchQueue.main.async {
                             var id = 1;
                             for data in AppDelegate.HerbList {
@@ -62,12 +68,77 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
                                 id += 1
                             }
+                            self.getFufanData_GET()
                         }
                         
                     }
                 }
             }.resume()
         }
+    }
+    func getFufanData_GET(){
+        let isAdd = checkFufanInit()
+        if isAdd {
+            return
+        }
+        if let url = URL(string: GET_LINK_FUFAN){
+            let session = URLSession.shared
+            session.dataTask(with: URLRequest(url: url)) { data, res, error in
+                if let error{
+                    print(error)
+                    return
+                }
+                if let data, let string = String(data: data, encoding: .utf8){
+//                    print(string)
+                    if let array = try? JSONDecoder().decode([FufanVO].self, from: data){
+                        AppDelegate.FufanList = array
+//                        print(array.count)
+                        DispatchQueue.main.async {
+                            var id = 1;
+                            for data in AppDelegate.FufanList{
+
+                                self.saveFufan(vo: data)
+
+                                id += 1
+                            }
+                        }
+
+                    }else{
+                        print("Error")
+                    }
+                }
+            }.resume()
+        }
+    }
+    func saveFufan(vo: FufanVO) {
+
+        guard let appDelegate =
+                UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+
+        let managedContext =
+        appDelegate.persistentContainer.viewContext
+
+        // 2
+        let entity =
+        NSEntityDescription.entity(forEntityName: "FufanEntity",
+                                   in: managedContext)!
+
+        let herb = NSManagedObject(entity: entity,
+                                   insertInto: managedContext)
+
+        // 3
+
+        herb.setValue(vo.url, forKeyPath: "url")
+        herb.setValue(vo.name, forKeyPath: "name")
+        herb.setValue(vo.desc, forKeyPath: "desc")
+        do {
+            try managedContext.save()
+        } catch let error as NSError {
+            print("Could not save fufan. \(error), \(error.userInfo)")
+        }
+
     }
 
     func save(vo: HerbVO, hid: Int) {
@@ -122,6 +193,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         getData_GET()
+//        getFufanData_GET()
         return true
     }
 

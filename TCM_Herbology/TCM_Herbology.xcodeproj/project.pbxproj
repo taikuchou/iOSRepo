@@ -15,6 +15,15 @@
 		F037FD5E2B61A41800409645 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */; };
 		F037FD5F2B61A41800409645 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */; };
 		F037FD602B61A41800409645 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */; };
+		F037FD622B61A77A00409645 /* FufanVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD612B61A77A00409645 /* FufanVO.swift */; };
+		F037FD632B61A77A00409645 /* FufanVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD612B61A77A00409645 /* FufanVO.swift */; };
+		F037FD642B61A77A00409645 /* FufanVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD612B61A77A00409645 /* FufanVO.swift */; };
+		F037FD672B61B9CD00409645 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD652B61B9CD00409645 /* LabelTableViewCell.swift */; };
+		F037FD682B61B9CD00409645 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD652B61B9CD00409645 /* LabelTableViewCell.swift */; };
+		F037FD692B61B9CD00409645 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD652B61B9CD00409645 /* LabelTableViewCell.swift */; };
+		F037FD6A2B61B9CD00409645 /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F037FD662B61B9CD00409645 /* LabelTableViewCell.xib */; };
+		F037FD6B2B61B9CD00409645 /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F037FD662B61B9CD00409645 /* LabelTableViewCell.xib */; };
+		F037FD6C2B61B9CD00409645 /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F037FD662B61B9CD00409645 /* LabelTableViewCell.xib */; };
 		F09A173F2B5EBB9500DA14A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A173E2B5EBB9500DA14A8 /* AppDelegate.swift */; };
 		F09A17412B5EBB9500DA14A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17402B5EBB9500DA14A8 /* SceneDelegate.swift */; };
 		F09A17432B5EBB9500DA14A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A17422B5EBB9500DA14A8 /* ViewController.swift */; };
@@ -61,6 +70,9 @@
 		F037FD582B60CA3700409645 /* HelperDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperDelegate.swift; sourceTree = "<group>"; };
 		F037FD592B61913100409645 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerTableViewCell.swift; sourceTree = "<group>"; };
+		F037FD612B61A77A00409645 /* FufanVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FufanVO.swift; sourceTree = "<group>"; };
+		F037FD652B61B9CD00409645 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		F037FD662B61B9CD00409645 /* LabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
 		F09A173B2B5EBB9500DA14A8 /* TCM_Herbology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCM_Herbology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09A173E2B5EBB9500DA14A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F09A17402B5EBB9500DA14A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +187,7 @@
 			children = (
 				F09A17742B5F0BDA00DA14A8 /* HerbVO.swift */,
 				F09A177B2B6018BC00DA14A8 /* CoreDataTransform.swift */,
+				F037FD612B61A77A00409645 /* FufanVO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +210,8 @@
 				F037FD552B60C49D00409645 /* MyExpandableTableViewCell.swift */,
 				F037FD592B61913100409645 /* CustomCollectionViewCell.swift */,
 				F037FD5D2B61A41800409645 /* InnerTableViewCell.swift */,
+				F037FD652B61B9CD00409645 /* LabelTableViewCell.swift */,
+				F037FD662B61B9CD00409645 /* LabelTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -307,6 +322,7 @@
 			files = (
 				F09A174E2B5EBB9600DA14A8 /* LaunchScreen.storyboard in Resources */,
 				F09A174B2B5EBB9600DA14A8 /* Assets.xcassets in Resources */,
+				F037FD6A2B61B9CD00409645 /* LabelTableViewCell.xib in Resources */,
 				F09A17462B5EBB9500DA14A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F037FD6B2B61B9CD00409645 /* LabelTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F037FD6C2B61B9CD00409645 /* LabelTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09A17B72B6092FD00DA14A8 /* HelperDelegate.swift in Sources */,
+				F037FD622B61A77A00409645 /* FufanVO.swift in Sources */,
 				F09A177F2B6036DE00DA14A8 /* HerbDetailsViewController.swift in Sources */,
 				F037FD542B60B34200409645 /* CustomTableViewCell.swift in Sources */,
 				F09A17492B5EBB9500DA14A8 /* TCM_Herbology.xcdatamodeld in Sources */,
@@ -342,6 +361,7 @@
 				F037FD562B60C49D00409645 /* MyExpandableTableViewCell.swift in Sources */,
 				F037FD5A2B61913100409645 /* CustomCollectionViewCell.swift in Sources */,
 				F09A173F2B5EBB9500DA14A8 /* AppDelegate.swift in Sources */,
+				F037FD672B61B9CD00409645 /* LabelTableViewCell.swift in Sources */,
 				F09A17412B5EBB9500DA14A8 /* SceneDelegate.swift in Sources */,
 				F09A17752B5F0BDA00DA14A8 /* HerbVO.swift in Sources */,
 				F09A177C2B6018BC00DA14A8 /* CoreDataTransform.swift in Sources */,
@@ -353,10 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09A17592B5EBB9700DA14A8 /* TCM_HerbologyTests.swift in Sources */,
+				F037FD632B61A77A00409645 /* FufanVO.swift in Sources */,
 				F037FD5B2B61913100409645 /* CustomCollectionViewCell.swift in Sources */,
 				F037FD5F2B61A41800409645 /* InnerTableViewCell.swift in Sources */,
 				F09A177D2B6018BC00DA14A8 /* CoreDataTransform.swift in Sources */,
 				F09A17802B6036DE00DA14A8 /* HerbDetailsViewController.swift in Sources */,
+				F037FD682B61B9CD00409645 /* LabelTableViewCell.swift in Sources */,
 				F09A17762B5F0BDA00DA14A8 /* HerbVO.swift in Sources */,
 				F09A17B82B6092FD00DA14A8 /* HelperDelegate.swift in Sources */,
 				F09A177A2B5F5C7F00DA14A8 /* ListViewController.swift in Sources */,
@@ -368,8 +390,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09A17632B5EBB9700DA14A8 /* TCM_HerbologyUITests.swift in Sources */,
+				F037FD642B61A77A00409645 /* FufanVO.swift in Sources */,
 				F09A17652B5EBB9700DA14A8 /* TCM_HerbologyUITestsLaunchTests.swift in Sources */,
 				F09A17B92B6092FD00DA14A8 /* HelperDelegate.swift in Sources */,
+				F037FD692B61B9CD00409645 /* LabelTableViewCell.swift in Sources */,
 				F037FD5C2B61913100409645 /* CustomCollectionViewCell.swift in Sources */,
 				F037FD602B61A41800409645 /* InnerTableViewCell.swift in Sources */,
 			);

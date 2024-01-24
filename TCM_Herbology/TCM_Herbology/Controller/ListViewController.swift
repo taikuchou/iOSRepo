@@ -115,6 +115,8 @@ class ListViewController: UITableViewController {
         initCoreData()
         initHerbList()
         initSearchBar()
+//        print(NSHomeDirectory())
+        
     }
 
 

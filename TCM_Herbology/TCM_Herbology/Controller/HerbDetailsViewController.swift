@@ -15,7 +15,7 @@ class HerbDetailsViewController: UITableViewController {
     }
     var data: HerbVO!
     var displaySettings: [(type: DetailsTypes, key: String, title: String, isExpended: Bool)] = //[.general_info,.cautions,.indications,.efficacy,.combinations,.fufan,.others]
-    [(.general_info,"category","Category",true),(.general_info,"commonName","Common Name",true),(.general_info,"literalEnglish","Literal English",true),(.general_info,"dosage","Dosage",true),(.general_info,"channels","Channels",true),(.general_info,"properties","Properties",true),(.list_info,"actionsIndications","Actions and Indications",true),(.list_info,"contraindicationsCautions","Contraindications / Cautions",true),(.list_info,"efficacy","Efficacy",true),(.list_info,"commonCombinations","Common Combinations",true),(.list_info,"others","Others",true),(.list_info,"fuFan","FuFan",true)]
+    [(.general_info,"category","Category",true),(.general_info,"commonName","Common Name",true),(.general_info,"literalEnglish","Literal English",true),(.general_info,"dosage","Dosage",true),(.general_info,"channels","Channels",true),(.general_info,"properties","Properties",true),(.list_info,"actionsIndications","Actions and Indications",true),(.list_info,"contraindicationsCautions","Contraindications / Cautions",true),(.list_info,"efficacy","Efficacy",true),(.list_info,"commonCombinations","Common Combinations",true),(.list_info,"others","Others",true),(.fufan,"fuFan","FuFan",true)]
     var herbDict = [String: String]()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class HerbDetailsViewController: UITableViewController {
         tableView.register(textFieldCell, forCellReuseIdentifier: "ExpandableTableViewCell")
         tableView.register(CustomTableViewCell.self, forCellReuseIdentifier: "CustomTableViewCell")
         tableView.register(MyExpandableTableViewCell.self, forCellReuseIdentifier: "MyExpandableTableViewCell")
-
+        tableView.register(InnerTableViewCell.self, forCellReuseIdentifier: "InnerTableViewCell")
 
     }
     func initHerbDict(){
@@ -84,6 +84,7 @@ class HerbDetailsViewController: UITableViewController {
         let data = displaySettings[indexPath.row]
         let title = "\(data.title)"
         let subtitle = "\(getHerbData(key: data.key))"
+        print(subtitle)
         if data.type == .general_info {
             cell = tableView.dequeueReusableCell(withIdentifier: "CELL", for: indexPath)
             if #available(iOS 14.0, *) {
@@ -97,40 +98,29 @@ class HerbDetailsViewController: UITableViewController {
                 cell.detailTextLabel?.text = subtitle
             }
         }
-//        else if data.type == .list_info{
-//            cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell", for: indexPath)
-//            if let cell1 = cell as? CustomTableViewCell{
-////                cell1.labTime.text = title
-//                var stext = subtitle
-//                if subtitle.contains("|") {
-//                    stext = "\(subtitle.replacingOccurrences(of: "|", with: "\n"))"
-//                }
-//                if stext.contains("•") {
-//                    stext = "\(stext.replacingOccurrences(of: "•", with: "\n•"))"
-//                }
-//                if stext.contains("◦") {
-//                    stext = "\(stext.replacingOccurrences(of: "◦", with: "\n•"))"
-//                }
-//                if stext.starts(with: "\n"){
-//                    stext = "\(stext[stext.index(stext.startIndex, offsetBy: 1)..<stext.endIndex])"
-//                }
-//                cell1.labMessage.text = stext
-//                cell1.labUerName.text = "\(title)"
-//            }
+        else if data.type == .fufan{
+            cell = tableView.dequeueReusableCell(withIdentifier: "InnerTableViewCell", for: indexPath)
+            if let cell1 = cell as? InnerTableViewCell{
+                cell1.list = subtitle.components(separatedBy: "|")
+                cell1.index = indexPath.row
+                cell1.config = data
+                cell1.helperDelegate = self
+                cell1.titleView.text = data.title
+            }
 
-//        }
+        }
         else if data.type == .list_info{
             cell = tableView.dequeueReusableCell(withIdentifier: "MyExpandableTableViewCell", for: indexPath)
             if let cell1 = cell as? MyExpandableTableViewCell{
                 var stext = subtitle
-                if subtitle.contains("|") {
-                    stext = "\(subtitle.replacingOccurrences(of: "|", with: "\n"))"
+                if stext.contains("|") {
+                    stext = "\(stext.replacingOccurrences(of: "|", with: "\n"))"
                 }
-                if subtitle.contains("•") {
-                    stext = "\(subtitle.replacingOccurrences(of: "•", with: "\n•"))"
+                if stext.contains("•") {
+                    stext = "\(stext.replacingOccurrences(of: "•", with: "\n• "))"
                 }
                 if subtitle.contains("◦") {
-                    stext = "\(subtitle.replacingOccurrences(of: "◦", with: "\n•"))"
+                    stext = "\(stext.replacingOccurrences(of: "◦", with: "• "))"
                 }
                 if stext.starts(with: "\n"){
                     stext = "\(stext[stext.index(stext.startIndex, offsetBy: 1)..<stext.endIndex])"
@@ -196,7 +186,7 @@ class HerbDetailsViewController: UITableViewController {
 
 }
 enum DetailsTypes: Int{
-    case general_info,list_info,test//cautions,indications,efficacy,combinations,fufan,others
+    case general_info,list_info,fufan//cautions,indications,efficacy,combinations,fufan,others
 }
 
 extension UITableView {

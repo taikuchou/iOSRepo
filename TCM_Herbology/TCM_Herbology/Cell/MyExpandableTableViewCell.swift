@@ -73,7 +73,6 @@ class MyExpandableTableViewCell: UITableViewCell {
         }
 
         UIView.animate(withDuration: 0.3) {
-//            print("OO")
             self.show(_config.isExpended)
             //self.contentView.setNeedsLayout()
             self.helperDelegate?.heightChanged(index: self.index, value: !_config.isExpended)
