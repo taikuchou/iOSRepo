@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F037FD7A2B61DB9D00409645 /* TCM_Herbology_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD792B61DB9D00409645 /* TCM_Herbology_SwiftUIApp.swift */; };
+		F037FD7C2B61DB9D00409645 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD7B2B61DB9D00409645 /* ContentView.swift */; };
+		F037FD7E2B61DB9E00409645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F037FD7D2B61DB9E00409645 /* Assets.xcassets */; };
+		F037FD812B61DB9E00409645 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F037FD802B61DB9E00409645 /* Preview Assets.xcassets */; };
+		F037FD832B61DB9E00409645 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD822B61DB9E00409645 /* Persistence.swift */; };
+		F037FD862B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F037FD842B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodeld */; };
+		F037FD922B61DB9E00409645 /* TCM_Herbology_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD912B61DB9E00409645 /* TCM_Herbology_SwiftUITests.swift */; };
+		F037FD9C2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD9B2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITests.swift */; };
+		F037FD9E2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037FD9D2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F037FD8E2B61DB9E00409645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F037FD6E2B61DB9D00409645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F037FD752B61DB9D00409645;
+			remoteInfo = TCM_Herbology_SwiftUI;
+		};
+		F037FD982B61DB9E00409645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F037FD6E2B61DB9D00409645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F037FD752B61DB9D00409645;
+			remoteInfo = TCM_Herbology_SwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F037FD762B61DB9D00409645 /* TCM_Herbology_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCM_Herbology_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F037FD792B61DB9D00409645 /* TCM_Herbology_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCM_Herbology_SwiftUIApp.swift; sourceTree = "<group>"; };
+		F037FD7B2B61DB9D00409645 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F037FD7D2B61DB9E00409645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F037FD802B61DB9E00409645 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F037FD822B61DB9E00409645 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F037FD852B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCM_Herbology_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		F037FD872B61DB9E00409645 /* TCM_Herbology_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCM_Herbology_SwiftUI.entitlements; sourceTree = "<group>"; };
+		F037FD882B61DB9E00409645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F037FD8D2B61DB9E00409645 /* TCM_Herbology_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCM_Herbology_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F037FD912B61DB9E00409645 /* TCM_Herbology_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCM_Herbology_SwiftUITests.swift; sourceTree = "<group>"; };
+		F037FD972B61DB9E00409645 /* TCM_Herbology_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCM_Herbology_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F037FD9B2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCM_Herbology_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		F037FD9D2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCM_Herbology_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F037FD732B61DB9D00409645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F037FD8A2B61DB9E00409645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F037FD942B61DB9E00409645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F037FD6D2B61DB9D00409645 = {
+			isa = PBXGroup;
+			children = (
+				F037FD782B61DB9D00409645 /* TCM_Herbology_SwiftUI */,
+				F037FD902B61DB9E00409645 /* TCM_Herbology_SwiftUITests */,
+				F037FD9A2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITests */,
+				F037FD772B61DB9D00409645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F037FD772B61DB9D00409645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD762B61DB9D00409645 /* TCM_Herbology_SwiftUI.app */,
+				F037FD8D2B61DB9E00409645 /* TCM_Herbology_SwiftUITests.xctest */,
+				F037FD972B61DB9E00409645 /* TCM_Herbology_SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F037FD782B61DB9D00409645 /* TCM_Herbology_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD792B61DB9D00409645 /* TCM_Herbology_SwiftUIApp.swift */,
+				F037FD7B2B61DB9D00409645 /* ContentView.swift */,
+				F037FD7D2B61DB9E00409645 /* Assets.xcassets */,
+				F037FD822B61DB9E00409645 /* Persistence.swift */,
+				F037FD872B61DB9E00409645 /* TCM_Herbology_SwiftUI.entitlements */,
+				F037FD882B61DB9E00409645 /* Info.plist */,
+				F037FD842B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodeld */,
+				F037FD7F2B61DB9E00409645 /* Preview Content */,
+			);
+			path = TCM_Herbology_SwiftUI;
+			sourceTree = "<group>";
+		};
+		F037FD7F2B61DB9E00409645 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD802B61DB9E00409645 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F037FD902B61DB9E00409645 /* TCM_Herbology_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD912B61DB9E00409645 /* TCM_Herbology_SwiftUITests.swift */,
+			);
+			path = TCM_Herbology_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		F037FD9A2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F037FD9B2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITests.swift */,
+				F037FD9D2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = TCM_Herbology_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F037FD752B61DB9D00409645 /* TCM_Herbology_SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F037FDA12B61DB9F00409645 /* Build configuration list for PBXNativeTarget "TCM_Herbology_SwiftUI" */;
+			buildPhases = (
+				F037FD722B61DB9D00409645 /* Sources */,
+				F037FD732B61DB9D00409645 /* Frameworks */,
+				F037FD742B61DB9D00409645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCM_Herbology_SwiftUI;
+			productName = TCM_Herbology_SwiftUI;
+			productReference = F037FD762B61DB9D00409645 /* TCM_Herbology_SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F037FD8C2B61DB9E00409645 /* TCM_Herbology_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F037FDA42B61DB9F00409645 /* Build configuration list for PBXNativeTarget "TCM_Herbology_SwiftUITests" */;
+			buildPhases = (
+				F037FD892B61DB9E00409645 /* Sources */,
+				F037FD8A2B61DB9E00409645 /* Frameworks */,
+				F037FD8B2B61DB9E00409645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F037FD8F2B61DB9E00409645 /* PBXTargetDependency */,
+			);
+			name = TCM_Herbology_SwiftUITests;
+			productName = TCM_Herbology_SwiftUITests;
+			productReference = F037FD8D2B61DB9E00409645 /* TCM_Herbology_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F037FD962B61DB9E00409645 /* TCM_Herbology_SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F037FDA72B61DB9F00409645 /* Build configuration list for PBXNativeTarget "TCM_Herbology_SwiftUIUITests" */;
+			buildPhases = (
+				F037FD932B61DB9E00409645 /* Sources */,
+				F037FD942B61DB9E00409645 /* Frameworks */,
+				F037FD952B61DB9E00409645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F037FD992B61DB9E00409645 /* PBXTargetDependency */,
+			);
+			name = TCM_Herbology_SwiftUIUITests;
+			productName = TCM_Herbology_SwiftUIUITests;
+			productReference = F037FD972B61DB9E00409645 /* TCM_Herbology_SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F037FD6E2B61DB9D00409645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F037FD752B61DB9D00409645 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F037FD8C2B61DB9E00409645 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F037FD752B61DB9D00409645;
+					};
+					F037FD962B61DB9E00409645 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F037FD752B61DB9D00409645;
+					};
+				};
+			};
+			buildConfigurationList = F037FD712B61DB9D00409645 /* Build configuration list for PBXProject "TCM_Herbology_SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F037FD6D2B61DB9D00409645;
+			productRefGroup = F037FD772B61DB9D00409645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F037FD752B61DB9D00409645 /* TCM_Herbology_SwiftUI */,
+				F037FD8C2B61DB9E00409645 /* TCM_Herbology_SwiftUITests */,
+				F037FD962B61DB9E00409645 /* TCM_Herbology_SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F037FD742B61DB9D00409645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F037FD812B61DB9E00409645 /* Preview Assets.xcassets in Resources */,
+				F037FD7E2B61DB9E00409645 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F037FD8B2B61DB9E00409645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F037FD952B61DB9E00409645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F037FD722B61DB9D00409645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F037FD832B61DB9E00409645 /* Persistence.swift in Sources */,
+				F037FD7C2B61DB9D00409645 /* ContentView.swift in Sources */,
+				F037FD862B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodeld in Sources */,
+				F037FD7A2B61DB9D00409645 /* TCM_Herbology_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F037FD892B61DB9E00409645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F037FD922B61DB9E00409645 /* TCM_Herbology_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F037FD932B61DB9E00409645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F037FD9C2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITests.swift in Sources */,
+				F037FD9E2B61DB9F00409645 /* TCM_Herbology_SwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F037FD8F2B61DB9E00409645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F037FD752B61DB9D00409645 /* TCM_Herbology_SwiftUI */;
+			targetProxy = F037FD8E2B61DB9E00409645 /* PBXContainerItemProxy */;
+		};
+		F037FD992B61DB9E00409645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F037FD752B61DB9D00409645 /* TCM_Herbology_SwiftUI */;
+			targetProxy = F037FD982B61DB9E00409645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F037FD9F2B61DB9F00409645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F037FDA02B61DB9F00409645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F037FDA22B61DB9F00409645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TCM_Herbology_SwiftUI/TCM_Herbology_SwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCM_Herbology_SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCM_Herbology_SwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F037FDA32B61DB9F00409645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TCM_Herbology_SwiftUI/TCM_Herbology_SwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCM_Herbology_SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCM_Herbology_SwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F037FDA52B61DB9F00409645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCM_Herbology_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCM_Herbology_SwiftUI";
+			};
+			name = Debug;
+		};
+		F037FDA62B61DB9F00409645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCM_Herbology_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCM_Herbology_SwiftUI";
+			};
+			name = Release;
+		};
+		F037FDA82B61DB9F00409645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCM_Herbology_SwiftUI;
+			};
+			name = Debug;
+		};
+		F037FDA92B61DB9F00409645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kurius.swift.TCM-Herbology-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCM_Herbology_SwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F037FD712B61DB9D00409645 /* Build configuration list for PBXProject "TCM_Herbology_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037FD9F2B61DB9F00409645 /* Debug */,
+				F037FDA02B61DB9F00409645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F037FDA12B61DB9F00409645 /* Build configuration list for PBXNativeTarget "TCM_Herbology_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037FDA22B61DB9F00409645 /* Debug */,
+				F037FDA32B61DB9F00409645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F037FDA42B61DB9F00409645 /* Build configuration list for PBXNativeTarget "TCM_Herbology_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037FDA52B61DB9F00409645 /* Debug */,
+				F037FDA62B61DB9F00409645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F037FDA72B61DB9F00409645 /* Build configuration list for PBXNativeTarget "TCM_Herbology_SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037FDA82B61DB9F00409645 /* Debug */,
+				F037FDA92B61DB9F00409645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F037FD842B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F037FD852B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodel */,
+			);
+			currentVersion = F037FD852B61DB9E00409645 /* TCM_Herbology_SwiftUI.xcdatamodel */;
+			path = TCM_Herbology_SwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F037FD6E2B61DB9D00409645 /* Project object */;
+}

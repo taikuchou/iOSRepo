@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FA103A90-DCEF-4EC1-BD36-1377A12B1074"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC8C340A-A0C2-4998-B94D-6D793E10B787"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Model/HerbVO.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "encode(to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB894896-3AA5-49D7-B75C-0BFACA44C11A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Model/HerbVO.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "encode(to:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB894896-3AA5-49D7-B75C-0BFACA44C11A - ed42e620ba831ad5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.HerbVO.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Model/HerbVO.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "AB894896-3AA5-49D7-B75C-0BFACA44C11A - ed42e620ba831ad5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.HerbVO.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Model/HerbVO.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "2332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E87D5B2-0417-4BAA-926C-972413E4F48B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Model/HerbVO.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "fromNSManagedObject(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E87D5B2-0417-4BAA-926C-972413E4F48B - 3b457b8db85420d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.HerbVO.fromNSManagedObject(__C.NSManagedObject) -&gt; ()"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Model/HerbVO.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "5E87D5B2-0417-4BAA-926C-972413E4F48B - e7c63e4271f8427d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.HerbVO.fromNSManagedObject(__C.NSManagedObject) -&gt; TCM_Herbology.HerbVO"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Model/HerbVO.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2702F6DA-F8AB-4F43-AABD-592F68ECE6F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Controller/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "initHerbList(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AED66352-4FD5-4056-808A-B52516B19454"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Controller/HerbDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "HerbDetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AED66352-4FD5-4056-808A-B52516B19454 - a8d3c8915b007901"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.HerbDetailsViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Controller/HerbDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1500">
+               </Location>
+               <Location
+                  uuid = "AED66352-4FD5-4056-808A-B52516B19454 - a8d3c8915b007901"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.HerbDetailsViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Controller/HerbDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+               <Location
+                  uuid = "AED66352-4FD5-4056-808A-B52516B19454 - a8d3c8915b007839"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.HerbDetailsViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Controller/HerbDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5A0A1FB-4874-4E4B-9EF1-CC027FE155E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Cell/GeneralInfoTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "handleActon()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5A0A1FB-4874-4E4B-9EF1-CC027FE155E8 - c21eebc82885953f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.GeneralInfoTableViewCell.handleActon() -&gt; ()"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Cell/GeneralInfoTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "E5A0A1FB-4874-4E4B-9EF1-CC027FE155E8 - c21eebc82885951e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TCM_Herbology.GeneralInfoTableViewCell.handleActon() -&gt; ()"
+                  moduleName = "TCM_Herbology"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crystalbravo/Documents/Projects/%E8%B3%87%E5%85%83%E7%A7%91%E6%8A%80%E9%A1%A7%E5%95%8F/%E5%B0%88%E6%A1%88/2024/JobSeekingPreparation/iOSRepo/TCM_Herbology/TCM_Herbology/Cell/GeneralInfoTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFD8C3E3-B373-4BF7-B6C5-F59FA0740C56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Controller/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "searchBarCancelButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7847B48D-8642-4F15-83E0-83F358BD8B38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Controller/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "initHerbList(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67654190-42EA-4123-931A-62476B427EF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Controller/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "initHerbList(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28BE4E26-83FC-49D0-8F23-24AF27957476"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Controller/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EC76CD8-028C-4D65-A321-EF6AE32FEAD7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCM_Herbology/Controller/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "initHerbList(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
