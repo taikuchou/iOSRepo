@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TCM_Herbology" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TCM_Herbology_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,7 @@
         <!--List View Controller-->
         <scene sceneID="dvd-ds-ibl">
             <objects>
-                <tableViewController id="QHh-0x-WGS" customClass="ListViewController" customModule="TCM_Herbology" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="QHh-0x-WGS" customClass="ListViewController" customModule="TCM_Herbology_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="l9r-2x-P1G">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,7 +99,7 @@
         <!--Herb Details View Controller-->
         <scene sceneID="eeW-ey-Fsu">
             <objects>
-                <tableViewController storyboardIdentifier="details" id="MoO-jS-nfx" customClass="HerbDetailsViewController" customModule="TCM_Herbology" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="details" id="MoO-jS-nfx" customClass="HerbDetailsViewController" customModule="TCM_Herbology_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Kjd-sM-7gS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,7 +136,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="2Dx-v6-zK4">
-                        <barButtonItem key="rightBarButtonItem" image="paperplane.circle" catalog="system" id="D9M-N3-iOx">
+                        <barButtonItem key="rightBarButtonItem" image="carseat.left.forward.and.backward.fill" catalog="system" id="D9M-N3-iOx">
                             <connections>
                                 <action selector="webHandler:" destination="MoO-jS-nfx" id="Lq2-c4-onx"/>
                             </connections>
@@ -167,9 +167,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="carseat.left.forward.and.backward.fill" catalog="system" width="113" height="128"/>
         <image name="grid" catalog="system" width="128" height="113"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="paperplane.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
