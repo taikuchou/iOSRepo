@@ -22,7 +22,7 @@ struct HerbsService {
                     print(error)
                     return
                 }
-                if let data, let string = String(data: data, encoding: .utf8){
+                if let data{
                     if let array = try? JSONDecoder().decode([HerbVO].self, from: data){
                         DispatchQueue.main.async {
                             var id = 1;

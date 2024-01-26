@@ -110,6 +110,7 @@ extension HerbVO: CoreDataTransform{
     typealias T = HerbVO
     static func fromNSManagedObject(_ data: NSManagedObject) -> T {
         var ret = HerbVO()
+        ret.hid =  data.value(forKeyPath: "hid") as? Int ?? 0
         ret.url =  data.value(forKeyPath: "url") as? String ?? ""
         ret.category =  data.value(forKeyPath: "category") as? String ?? ""
         ret.efficacy =  data.value(forKeyPath: "efficacy") as? String ?? ""

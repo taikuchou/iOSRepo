@@ -217,8 +217,8 @@
 				F09A177B2B6018BC00DA14A8 /* CoreDataTransform.swift */,
 				F037FD612B61A77A00409645 /* FufanVO.swift */,
 				F037FDAA2B628B4E00409645 /* HerbDAO.swift */,
-				F037FDAC2B628D9F00409645 /* IDAO.swift */,
 				F037FDB52B6291E900409645 /* FufanDAO.swift */,
+				F037FDAC2B628D9F00409645 /* IDAO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

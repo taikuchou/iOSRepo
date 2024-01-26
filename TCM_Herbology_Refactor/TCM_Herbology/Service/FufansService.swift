@@ -16,7 +16,7 @@ struct FufansService {
                     print(error)
                     return
                 }
-                if let data, let string = String(data: data, encoding: .utf8){
+                if let data{
                     if let array = try? JSONDecoder().decode([FufanVO].self, from: data){
                         DispatchQueue.main.async {
                             var id = 1;

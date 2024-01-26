@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  TCM_Herbology_SwiftUI
 //
-//  Created by Tai Kuchou on 2024/1/24.
+//  Created by Tai Kuchou on 2024/1/25.
 //
 
 import CoreData
@@ -28,10 +28,10 @@ struct PersistenceController {
         return result
     }()
 
-    let container: NSPersistentCloudKitContainer
+    let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentCloudKitContainer(name: "TCM_Herbology_SwiftUI")
+        container = NSPersistentContainer(name: "TCM_Herbology_SwiftUI")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
